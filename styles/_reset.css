@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+details,
+select {
+  outline: none;
+}
+
+input:hover,
+input:focus,
+button:hover,
+button:focus,
+details:hover,
+details:focus {
+  outline: none;
+}
+
+hr {
+  border: 2px solid #000;
+  background-color: #000;
+  opacity: .2;
+  width: 120px;
+  margin: 1em 0;
+}
+
